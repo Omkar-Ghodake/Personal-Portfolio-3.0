@@ -6,3 +6,48 @@
   padding: 0;
   margin: 0;
 }
+
+html, .cursor-techno {
+  cursor: url("/cursor_2.cur"), auto;
+}
+
+.gochi {
+  margin-top:  10vh;
+}
+
+.text-sky-400::-moz-selection, .text-sky-300::-moz-selection {
+  color: white;
+  background: rgb(56 189 248 / 0.5);
+}
+
+.text-sky-400::selection, .text-sky-300::selection {
+  color: white;
+  background: rgb(56 189 248 / 0.5);
+}
+
+.text-white::-moz-selection {
+  color: #38bdf8;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.text-white::selection {
+  color: #38bdf8;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+body {
+  /* background-image: url("/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  overflow-x: hidden;
+}
+
+.home {
+  background-image: url("/homeBg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
