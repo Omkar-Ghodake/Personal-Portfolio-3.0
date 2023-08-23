@@ -11,8 +11,11 @@ html, .cursor-techno {
   cursor: url("/cursor_2.cur"), auto;
 }
 
-.gochi {
-  margin-top:  10vh;
+body {
+  background-image: url("/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
 .text-sky-400::-moz-selection, .text-sky-300::-moz-selection {
