@@ -15,7 +15,7 @@ body {
   background-image: url("/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  
+  overflow-x: hidden;
 }
 
 .text-sky-400::-moz-selection, .text-sky-300::-moz-selection {
@@ -38,19 +38,15 @@ body {
   background: rgba(255, 255, 255, 0.3);
 }
 
-body {
-  /* background-image: url("/bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  overflow-x: hidden;
-}
-
 .home {
   background-image: url("/homeBg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: fit-content;
+}
+
+.stroke-5 {
+  -webkit-text-stroke: .5px;
 }
